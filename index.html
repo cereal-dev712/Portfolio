@@ -10,7 +10,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Lato:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" />
@@ -20,7 +20,7 @@
     <!-- HEADER -->
     <header>
       <div class="brand">
-        <div class="logo"><span>RS</span></div>
+        <div class="logo">RS</div>
         <div>
           <div class="brand-name">Ritik Sharma</div>
           <div class="brand-role">Content Writer & Developer</div>
@@ -40,13 +40,14 @@
     <main id="home" class="hero">
       <div class="hero-left">
         <h1 class="name glow-text">Ritik Sharma</h1>
+        <h2 class="tagline">Content Writer & Developer</h2>
         <p class="intro">
-          I craft engaging blogs, scripts, and copy that not only tell stories but also drive results.  
-          With my web development knowledge, I merge creativity and tech expertise to produce content that connects with audiences and ranks on search engines.
+          I create impactful blogs, scripts, and copy that tell stories and deliver results.  
+          With my web development expertise, I merge creativity and tech to craft content that connects and performs.
         </p>
         <div class="cta">
-          <a class="btn" href="#contact">Get in Touch</a>
-          <a class="btn faint" href="#portfolio">View Portfolio</a>
+          <a class="btn primary" href="#contact">Get in Touch</a>
+          <a class="btn secondary" href="#portfolio">View Portfolio</a>
         </div>
       </div>
       <aside class="hero-card">
@@ -56,54 +57,60 @@
 
     <!-- ABOUT -->
     <section id="about">
-      <h3>About Me</h3>
+      <h3 class="section-title">About Me</h3>
       <div class="grid about-grid">
-        <div><img src="assets/profile.jpg" alt="Ritik Sharma" class="avatar"></div>
+        <img src="assets/profile.jpg" alt="Ritik Sharma" class="avatar">
         <div>
           <p>
-            I'm Ritik Sharma, a content writer and developer from Jhajjar, Haryana.  
-            I create blogs, scripts, and web content that merge storytelling with SEO strategy.  
-            With my developer background, I write for both readers and search engines effectively.
+            I'm Ritik Sharma, a passionate content writer and developer from Jhajjar, Haryana.  
+            I specialize in <strong>blogging</strong>, <strong>script writing</strong>, and <strong>SEO content</strong>.  
+            With a tech background, I write with both creativity and precision, delivering content that ranks and resonates.
           </p>
+          <ul class="skills">
+            <li>📝 Blogging & SEO</li>
+            <li>🎬 Script Writing</li>
+            <li>💻 Development-focused Content</li>
+            <li>✍️ Copywriting</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <!-- PORTFOLIO -->
     <section id="portfolio">
-      <h3>Portfolio</h3>
+      <h3 class="section-title">Portfolio</h3>
       <div class="grid portfolio-grid">
-        <div class="card">Blog Writing</div>
-        <div class="card">Script Writing</div>
-        <div class="card">Development Content</div>
-        <div class="card">Copywriting</div>
+        <div class="card"><h4>Blog Writing</h4><p>Research-driven blogs & long-form SEO content.</p></div>
+        <div class="card"><h4>Script Writing</h4><p>Engaging scripts for YouTube & campaigns.</p></div>
+        <div class="card"><h4>Development Content</h4><p>Readable tutorials & tech blogs.</p></div>
+        <div class="card"><h4>Copywriting</h4><p>Landing pages & ads that convert.</p></div>
       </div>
     </section>
 
     <!-- SERVICES -->
     <section id="services">
-      <h3>Services</h3>
+      <h3 class="section-title">Services</h3>
       <div class="grid services">
         <div class="service">📝 Blog Writing</div>
         <div class="service">🎬 Script Writing</div>
-        <div class="service">💻 Development Content</div>
+        <div class="service">💻 Dev Content</div>
         <div class="service">✍️ Copywriting</div>
       </div>
     </section>
 
     <!-- TESTIMONIALS -->
     <section id="testimonials">
-      <h3>Testimonials</h3>
+      <h3 class="section-title">Testimonials</h3>
       <div class="testi-track">
-        <div class="testi">"Ritik delivered high-quality SEO blogs that boosted our traffic."</div>
-        <div class="testi">"His scripts brought life to our video campaigns."</div>
-        <div class="testi">"Professional, reliable, and technically strong writing."</div>
+        <div class="testi">"Ritik's blogs boosted our organic traffic significantly."</div>
+        <div class="testi">"His scripts made our campaigns engaging and fun."</div>
+        <div class="testi">"Professional, creative, and technically sharp writing."</div>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact">
-      <h3>Contact</h3>
+      <h3 class="section-title">Contact</h3>
       <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
         <input name="name" placeholder="Your name" required />
         <input name="email" type="email" placeholder="Email address" required />
@@ -111,7 +118,7 @@
         <textarea name="message" rows="6" placeholder="Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>
-      <p>Email: <a href="mailto:ritik@r0sharma.xyz">ritik@r0sharma.xyz</a></p>
+      <p class="direct-email">📧 <a href="mailto:ritik@r0sharma.xyz">ritik@r0sharma.xyz</a></p>
     </section>
 
     <footer>
