@@ -1,0 +1,56 @@
+/* style.css */
+nav a{margin:0 10px;color:var(--muted);text-decoration:none;font-weight:600}
+nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:2fr 1fr;gap:30px;align-items:center;margin-top:40px}
+.profession{color:var(--muted)}
+.name{font-family:'Montserrat',sans-serif;font-size:2.5rem;margin:0}
+.glow-text{color:#fff;text-shadow:0 0 8px var(--accent)}
+.intro{margin-top:12px;color:var(--muted)}
+.cta{margin-top:20px}
+.btn{display:inline-block;padding:10px 18px;border-radius:var(--radius);background:var(--accent);color:#fff;text-decoration:none;box-shadow:var(--glow);transition:.2s}
+.btn:hover{opacity:.9}
+.btn.faint{background:var(--glass);color:var(--muted);box-shadow:none}
+.location{margin-top:20px;color:var(--muted);font-size:13px}
+.hero-card{background:var(--panel);padding:20px;border-radius:var(--radius);box-shadow:var(--glow)}
+.hero-card img{width:100%;border-radius:var(--radius)}
+.quick-facts{display:flex;gap:10px;margin-top:16px;align-items:center;justify-content:space-between}
+.qf-title{font-weight:700}
+.qf-sub{color:var(--muted);font-size:13px}
+.qf-years{font-weight:700}
+.section-title h3{font-family:'Montserrat',sans-serif;font-size:1.6rem;margin:20px 0}
+.grid{display:grid;gap:20px}
+.about-grid{grid-template-columns:1fr 2fr;align-items:center}
+.avatar{width:100%;border-radius:var(--radius)}
+.about-text{margin-bottom:10px}
+.about-list{color:var(--muted);margin-top:12px}
+.portfolio-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--panel);padding:20px;border-radius:var(--radius);box-shadow:var(--glow);transition:.3s}
+.card:hover{transform:translateY(-4px)}
+.card-title{font-weight:700}
+.meta{color:var(--muted);font-size:14px}
+.services{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.service{background:var(--panel);padding:20px;border-radius:var(--radius);box-shadow:var(--glow)}
+.icon{font-size:1.5rem;margin-bottom:8px}
+.service-title{font-weight:700}
+.service-text{color:var(--muted);margin-top:8px}
+.testi-track{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.testi{background:var(--panel);padding:20px;border-radius:var(--radius);box-shadow:var(--glow)}
+.testi-name{font-weight:700}
+.testi-text{color:var(--muted);margin-top:8px}
+.contact-grid{grid-template-columns:2fr 1fr;gap:20px}
+#contact-form input,#contact-form textarea{width:100%;padding:12px;margin-top:10px;border-radius:var(--radius);border:none;background:var(--panel);color:#fff}
+#contact-form button{margin-top:10px;padding:12px 20px;background:var(--accent);border:none;border-radius:var(--radius);color:#fff;font-weight:700;cursor:pointer;box-shadow:var(--glow)}
+#contact-form button:hover{opacity:.9}
+.direct-mail{margin-top:18px;color:var(--muted);font-size:13px}
+.direct-mail a{color:var(--accent)}
+.social-links a{margin-right:12px;color:var(--muted);text-decoration:none}
+.social-links a:hover{color:var(--accent)}
+.location-title{font-weight:700;margin-bottom:10px}
+iframe{width:100%;height:260px;border:0;border-radius:8px}
+footer{text-align:center;margin-top:40px;padding:20px 0;color:var(--muted);font-size:13px;border-top:1px solid #1c1c1f}
+
+
+@media(max-width:768px){
+.hero{grid-template-columns:1fr}
+.about-grid,.contact-grid{grid-template-columns:1fr}
+}
